@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.kahtuh" name="Kahtuh" version="0.0.1" provider-name="Ross Savage">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Algorithmic Cryptocurrency Trader</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>linux</platform>
+        <license>GPL-3.0</license>
+        <forum></forum>
+        <website></website>
+        <email>mr.dangeross@googlemail.com</email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
